@@ -1,0 +1,72 @@
+/* CSS files add styling rules to your content */
+
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+@import url("https://fonts.googleapis.com/css?family=Merriweather:400,700");
+@import url("https://fonts.googleapis.com/css?family=Oswald&display=swap");
+
+body {
+  /* background-image: url("https://cdn.glitch.com/e2192156-4ed5-4ae9-b24f-c67c3de33c07%2FGreyBackground.png?v=1584977699939"); */
+  background-color: grey;
+  font-family: "Open Sans", sans-serif;
+  padding: 5px 25px;
+  font-size: 18px;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-size: 32px;
+  color: red;
+  transition: 0.5s;
+}
+
+/* Mes IDs */
+#LogoCroixRouge {
+  width: 30%;
+  transition: 0.5s;
+}
+
+#LogoCroixRouge:hover {
+  width: 40%;
+}
+
+/* Mes Classes */
+.buttonOK {
+  text-align: center;
+}
+
+.CroixRouge {
+  width: 150px;
+}
+
+.ImageBox {
+  display: flex;
+  align-items: center; /* Pour centrer verticalement*/
+  justify-content: center; /* Pour centrer horizontalement */
+}
+
+.Vignette {
+  width: 60%;
+  transition: 0.5s;
+}
+
+.Vignette:hover {
+  width: 62%;
+}
+
+.paragraphInfo {
+  text-align: center;
+  color: #2a2a2a;
+}
+
+.SmileyAndButton {
+  width: 150px;
+  /* height: 50px;*/
+}
+
+.paragraphChoice {
+  text-align: center;
+  color: red;
+}
